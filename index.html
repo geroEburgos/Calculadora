@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <form action="">
+        <div class="result">
+           890,76
+        </div>
+        <input type="button" value="C" class="ce" onclick="limpiar()">
+        <input type="button" value="CE" class="ce-ee" onclick="limpiarCaracter()">
+        <input type="button" value="%" class="porc"  onclick="porcentaje()">
+        <input type="button" value="/" class="dividir"  onclick="dividir()">
+        <div>
+            <input type="button" value="7" class="siete"  onclick="agregarNumerSiete()">
+            <input type="button" value="8" class="ocho"  onclick="agregarNumerOcho()">
+            <input type="button" value="9" class="nueve"  onclick="agregarNumerNueve()">
+            <input type="button" value="*" class="multiplicar"  onclick="multiplicar()">
+        </div>
+        <div>
+            <input type="button" value="4" class="cuatro"  onclick="agregarNumerCuatro()">
+            <input type="button" value="5" class="cinco"  onclick="agregarNumerCinco()">
+            <input type="button" value="6" class="seis" onclick="agregarNumerSeis()">
+            <input type="button" value="-" class="resta" onclick="resta()">
+        </div>
+        <div>
+            <input type="button" value="1" class="uno"  onclick="agregarNumeroUno()">
+            <input type="button" value="2" class="dos" onclick="agregarNumeroDos()">
+            <input type="button" value="3" class="tres" onclick="agregarNumeroTres()">
+            <input type="button" value="+" class="suma" onclick="suma()">
+        </div>
+        <div>
+            <input type="button" value="0" class="cero" onclick="agregarNumeroCero()">
+            <input type="button" value="00" class="doble-cero" onclick="agregarNumeroDoblecero() ">
+            <input type="button" value="." class="punto" onclick="punto()">
+            <input type="button" value="=" class="igual" onclick="igual()">
+        </div>
+    </form>
+<script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    padding-top: 1%;
+    text-align: center;
+
+
+}
+
+form {
+    background-image: linear-gradient(to left, #28DF99, #D2F6C5);
+    text-align: center;
+    width: 600px;
+    height: 690px;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.result {
+    background-image: linear-gradient(to right, rgb(105, 105, 105), white);
+    width: 580px;
+    height: 160px;
+    margin: auto;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 60px;
+    text-align: end;
+    display: grid;
+    align-items: center;
+}
+
+.ce,
+.ce-ee,
+.porc,
+.dividir {
+    width: 146px;
+    height: 100px;
+    background-color: #20194A;
+    color: white;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+}
+
+.multiplicar,
+.resta,
+.suma,
+.igual {
+    background-color: #20194A;
+    color: white;
+    width: 146px;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+}
+
+.siete,
+.ocho,
+.nueve {
+    background-color: #7240c2;
+    color: white;
+    width: 146px;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+
+}
+
+.cuatro,
+.cinco,
+.seis {
+    background-color: #7240c2;
+    color: white;
+    width: 146px;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+}
+
+.uno,
+.dos,
+.tres {
+    background-color: #7240c2;
+    color: white;
+    width: 146px;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+}
+
+.cero,
+.punto,
+.doble-cero {
+    background-color: #7240c2;
+    color: white;
+    width: 146px;
+    height: 100px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 35px;
+    border-style: dotted;
+
+
+}
