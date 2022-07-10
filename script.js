@@ -65,8 +65,8 @@ function punto() {
 function igual() {
    var cuenta = document.querySelector('.result').innerText
     console.log(cuenta)
-    console.log(cuenta + 3) //solucionar que pueda hacer la cuenta con un tipo de dato numerico
-    console.log(cuenta +78)
+    //console.log(cuenta + 3) //solucionar que pueda hacer la cuenta con un tipo de dato numerico
+    //console.log(cuenta +78)
     console.log (eval (cuenta))
     var cuenta = document.querySelector('.result').innerText = eval(cuenta)
   
